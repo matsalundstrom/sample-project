@@ -1,0 +1,12 @@
+{
+  "name": "sample-project",
+  "description": "A test project.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/matsalundstrom/sample-project",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

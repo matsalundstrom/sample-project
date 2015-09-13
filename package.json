@@ -1,0 +1,23 @@
+{
+  "name": "sample-project",
+  "version": "0.0.1",
+  "description": "A test project.",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Mats Lundström",
+    "email": "mats.a.lundstrom@gmail.com",
+    "url": "https://github.com/matsalundstrom"
+  },
+  "homepage": "https://github.com/matsalundstrom/sample-project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matsalundstrom/sample-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matsalundstrom/sample-project/issues"
+  },
+  "keywords": [
+    "angular"
+  ]
+}
