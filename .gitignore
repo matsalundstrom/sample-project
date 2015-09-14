@@ -1,5 +1,8 @@
 # Bower
-src/app/bower_components
+bower_components
 
-# NodeJS
-node_modules/
+# Node
+node_modules
+
+# TSD
+typings

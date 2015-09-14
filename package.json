@@ -18,6 +18,10 @@
     "url": "https://github.com/matsalundstrom/sample-project/issues"
   },
   "keywords": [
-    "angular"
-  ]
+    "express",
+    "node"
+  ],
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }

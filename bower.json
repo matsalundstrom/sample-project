@@ -1,12 +1,26 @@
 {
   "name": "sample-project",
   "description": "A test project.",
-  "version": "0.0.1",
-  "homepage": "https://github.com/matsalundstrom/sample-project",
-  "license": "MIT",
   "private": true,
-  "dependencies": {
+  "license": "MIT",
+  "authors": [
+    "Mats Lundström <mats.a.lundstrom@gmail.com> (https://github.com/matsalundstrom)"
+  ],
+  "homepage": "https://github.com/matsalundstrom/sample-project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matsalundstrom/sample-project.git"
   },
-  "devDependencies": {
-  }
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "keywords": [
+    "angular"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5"
+  },
+  "devDependencies": {}
 }
