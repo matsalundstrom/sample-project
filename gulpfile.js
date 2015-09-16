@@ -5,6 +5,7 @@ var plugins = require('gulp-load-plugins')({lazy: true});
 
 gulp.task('lint', function() {
   return gulp.src(config.alljs)
+  	.pipe(plugins.jscs())
     .pipe(plugins.jshint())
     .pipe(plugins.jshint.reporter('jshint-stylish'));
 });
