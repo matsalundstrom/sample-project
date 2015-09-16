@@ -1,15 +1,15 @@
 <!doctype html>
-<html data-ng-app="app" lang="en">
+<html data-ng-app="app" data-ng-controller="AppController as wm" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="A description">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sample Project</title>
+    <title>{{wm.title}}</title>
   </head>
   <body>
   	<header>
-		
+		  <h1>{{wm.title}}</h1>
 	  </header>
 	  <main>
 		
@@ -21,5 +21,6 @@
     <script src="/bower_components/angular/angular.js"></script>
     
     <script src="/src/client/app/app.module.js"></script>
+    <script src="/src/client/app/appController.js"></script>
   </body>
 </html>
