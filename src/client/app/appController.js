@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   'use strict';
 
   angular
@@ -7,7 +7,7 @@
 
   function AppController() {
     var self = this;
-    
-    self.title = "Sample Project";
+
+    self.title = 'Sample Project';
   }
 })();

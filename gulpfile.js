@@ -1,11 +1,14 @@
-var gulp = require('gulp');
+﻿var gulp = require('gulp');
 var config = require('./gulp.config')();
 
-var plugins = require('gulp-load-plugins')({lazy: true});
+var $ = require('gulp-load-plugins')({lazy: true});
 
 gulp.task('lint', function() {
+  'use strict';
+
   return gulp.src(config.alljs)
-  	.pipe(plugins.jscs())
-    .pipe(plugins.jshint())
-    .pipe(plugins.jshint.reporter('jshint-stylish'));
+    .pipe($.jscs())
+    .pipe($.jshint())
+    .pipe($.jshint.reporter('jshint-stylish'))
+    .pipe($.jshint.reporter('fail'));
 });
